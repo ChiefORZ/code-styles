@@ -21,8 +21,14 @@
   "directories": {
     "lib": "lib"
   },
-  "files": ["lib"],
-  "keywords": ["tslint", "tslint-config", "tslint config"],
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "tslint",
+    "tslint-config",
+    "tslint config"
+  ],
   "license": "UNLICENSED",
   "main": "lib/tslint-config.js",
   "name": "@chieforz/tslint-config",
@@ -37,5 +43,5 @@
   "scripts": {
     "release": "release-it"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
