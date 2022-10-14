@@ -14,23 +14,28 @@
     "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   },
-  "directories": {
-    "lib": "lib"
-  },
-  "files": [
-    "lib"
-  ],
-  "keywords": [
-    "tslint",
-    "tslint-config",
-    "tslint config"
-  ],
-  "license": "UNLICENSED",
-  "main": "lib/tslint-config.js",
-  "name": "@chieforz/tslint-config",
-  "version": "1.0.0",
   "devDependencies": {
     "@release-it/conventional-changelog": "^5.1.1",
     "release-it": "^15.5.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": ["lib"],
+  "keywords": ["tslint", "tslint-config", "tslint config"],
+  "license": "UNLICENSED",
+  "main": "lib/tslint-config.js",
+  "name": "@chieforz/tslint-config",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChiefORZ/tslint-config"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "version": "1.0.0"
 }
