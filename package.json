@@ -1,14 +1,5 @@
 {
-  "directories": {
-    "lib": "lib"
-  },
-  "files": [
-    "lib"
-  ],
-  "license": "UNLICENSED",
-  "main": "lib/tslint-config.js",
-  "name": "@chieforz/tslint-config",
-  "version": "1.0.0",
+  "author": "ChiefORZ",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.6",
     "@typescript-eslint/eslint-plugin-tslint": "^5.30.6",
@@ -22,5 +13,24 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "tslint",
+    "tslint-config",
+    "tslint config"
+  ],
+  "license": "UNLICENSED",
+  "main": "lib/tslint-config.js",
+  "name": "@chieforz/tslint-config",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "release-it": "^15.5.0"
   }
 }
