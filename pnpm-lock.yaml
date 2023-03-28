@@ -11,7 +11,7 @@ specifiers:
   eslint-plugin-import: ^2.26.0
   eslint-plugin-prefer-arrow: ^1.2.3
   eslint-plugin-prettier: ^4.2.1
-  eslint-plugin-simple-import-sort: ^7.0.0
+  eslint-plugin-simple-import-sort: ^10.0.0
   prettier: ^2.7.1
   release-it: ^15.5.0
   typescript: ^4.7.4
@@ -26,7 +26,7 @@ dependencies:
   eslint-plugin-import: 2.26.0_bflqmelssalk7l4tzazdvqwnja
   eslint-plugin-prefer-arrow: 1.2.3_eslint@8.36.0
   eslint-plugin-prettier: 4.2.1_e36spvmi6ukdcmpxntnu6amr5y
-  eslint-plugin-simple-import-sort: 7.0.0_eslint@8.36.0
+  eslint-plugin-simple-import-sort: 10.0.0_eslint@8.36.0
   prettier: 2.7.1
   typescript: 4.8.4
 
@@ -1452,8 +1452,8 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: false
 
-  /eslint-plugin-simple-import-sort/7.0.0_eslint@8.36.0:
-    resolution: {integrity: sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==}
+  /eslint-plugin-simple-import-sort/10.0.0_eslint@8.36.0:
+    resolution: {integrity: sha512-AeTvO9UCMSNzIHRkg8S6c3RPy5YEwKWSQPx3DYghLedo2ZQxowPFLGDN1AZ2evfg6r6mjBSZSLxLFsWSu3acsw==}
     peerDependencies:
       eslint: '>=5.0.0'
     dependencies:
