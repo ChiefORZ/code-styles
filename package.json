@@ -1,6 +1,6 @@
 {
   "name": "@chieforz/tslint-config-root",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/ChiefORZ/tslint-config"
