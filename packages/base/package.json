@@ -1,0 +1,40 @@
+{
+  "name": "@chieforz/tslint-config",
+  "version": "1.0.2",
+  "keywords": [
+    "tslint",
+    "tslint-config",
+    "tslint config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChiefORZ/tslint-config"
+  },
+  "license": "UNLICENSED",
+  "author": "ChiefORZ",
+  "main": "lib/tslint-config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/eslint-plugin-tslint": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
