@@ -14,6 +14,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
+    "@release-it-plugins/workspaces": "^3.2.0",
     "@release-it/conventional-changelog": "^5.1.1",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
