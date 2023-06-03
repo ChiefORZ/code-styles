@@ -9,7 +9,9 @@
   "hooks": {
     "before:init": "git fetch --prune --prune-tags origin"
   },
+  "npm": false,
   "plugins": {
+    "@release-it-plugins/workspaces": true,
     "@release-it/conventional-changelog": {
       "infile": "CHANGELOG.md",
       "preset": {
@@ -27,8 +29,5 @@
         ]
       }
     }
-  },
-  "plugins": {
-    "@release-it-plugins/workspaces": true
   }
 }

@@ -18,8 +18,5 @@
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
     "release-it": "^15.5.0"
-  },
-  "release-it": {
-    "npm": false
   }
 }
