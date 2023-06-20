@@ -1,5 +1,12 @@
 
 
+## [1.1.0](https://github.com/ChiefORZ/tslint-config/compare/1.0.4...1.1.0) (2023-06-20)
+
+
+### Features
+
+* add sort-keys-fix to tslint-config-base ([e5d6fe0](https://github.com/ChiefORZ/tslint-config/commit/e5d6fe0bd4bc7b3e38f3faa8900b60866cce3db4))
+
 ## [1.0.4](https://github.com/ChiefORZ/tslint-config/compare/1.0.3...1.0.4) (2023-06-03)
 
 ### [1.0.2](https://github.com/ChiefORZ/tslint-config/compare/1.0.1...1.0.2) (2023-03-28)
