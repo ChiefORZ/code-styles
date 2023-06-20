@@ -63,6 +63,7 @@ module.exports = {
         "prettier/prettier": "warn",
         "simple-import-sort/exports": "error",
         "simple-import-sort/imports": "error",
+        "sort-keys-fix/sort-keys-fix": "warn",
       },
     },
   ],
