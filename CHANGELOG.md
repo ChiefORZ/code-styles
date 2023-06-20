@@ -1,5 +1,12 @@
 
 
+## [1.1.1](https://github.com/ChiefORZ/tslint-config/compare/1.1.0...1.1.1) (2023-06-20)
+
+
+### Bug Fixes
+
+* add missing sort-keys-fix rule ([1aa8775](https://github.com/ChiefORZ/tslint-config/commit/1aa877581db8d03b0e7805be3381b017fd69a2ba))
+
 ## [1.1.0](https://github.com/ChiefORZ/tslint-config/compare/1.0.4...1.1.0) (2023-06-20)
 
 
