@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/ChiefORZ/tslint-config"
   },
-  "author": "ChiefORZ",
+  "author": "ChiefORZ <seb.schaffernak@gmail.com>",
   "scripts": {
     "postinstall": "is-ci || husky install",
     "precommit": "true",
