@@ -1,9 +1,9 @@
 {
-  "name": "@chieforz/tslint-config-root",
+  "name": "@chieforz/code-styles",
   "version": "1.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChiefORZ/tslint-config"
+    "url": "https://github.com/ChiefORZ/code-styles"
   },
   "author": "ChiefORZ <seb.schaffernak@gmail.com>",
   "scripts": {

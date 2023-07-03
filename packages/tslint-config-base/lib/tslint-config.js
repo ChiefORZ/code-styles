@@ -6,6 +6,7 @@ module.exports = {
     "simple-import-sort",
     "sort-keys-fix",
     "import",
+    "json-files",
   ],
   env: {
     node: true,
@@ -58,6 +59,10 @@ module.exports = {
         "import/first": "error",
         "import/newline-after-import": "error",
         "import/no-duplicates": "error",
+        "json-files/require-engines": "warn",
+        "json-files/require-license": "warn",
+        "json-files/require-unique-dependency-names": "error",
+        "json-files/sort-package-json": "warn",
         "no-empty": "off",
         "no-useless-escape": "off",
         "prettier/prettier": "warn",

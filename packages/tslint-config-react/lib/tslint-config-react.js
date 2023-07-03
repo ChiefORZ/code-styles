@@ -5,6 +5,7 @@ module.exports = {
     "sort-keys-fix",
     "validate-jsx-nesting",
     "@typescript-eslint",
+    "json-files",
   ],
   extends: [
     "airbnb-typescript",
@@ -53,6 +54,10 @@ module.exports = {
       },
     ],
     "import/prefer-default-export": "off",
+    "json-files/require-engines": "warn",
+    "json-files/require-license": "warn",
+    "json-files/require-unique-dependency-names": "error",
+    "json-files/sort-package-json": "warn",
     "max-len": [
       "warn",
       {
@@ -75,13 +80,13 @@ module.exports = {
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-sort-props": [
-      2,
+      "error",
       {
         callbacksLast: false,
-        shorthandFirst: false,
-        shorthandLast: false,
         ignoreCase: true,
         noSortAlphabetically: false,
+        shorthandFirst: false,
+        shorthandLast: false,
       },
     ],
     "react/jsx-wrap-multilines": "off",
