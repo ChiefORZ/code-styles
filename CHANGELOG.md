@@ -1,5 +1,7 @@
 
 
+## [1.1.2](https://github.com/ChiefORZ/code-styles/compare/1.1.1...1.1.2) (2023-07-03)
+
 ## [1.1.1](https://github.com/ChiefORZ/tslint-config/compare/1.1.0...1.1.1) (2023-06-20)
 
 
