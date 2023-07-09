@@ -1,0 +1,62 @@
+{
+  "name": "@chieforz/renovate-config",
+  "version": "1.1.2",
+  "keywords": [
+    "renovate",
+    "renovate-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChiefORZ/code-styles"
+  },
+  "license": "MIT",
+  "author": "ChiefORZ <seb.schaffernak@gmail.com>",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "renovate-config": {
+    "default": {
+      "assignAutomerge": false,
+      "assignees": [
+        "ChiefORZ"
+      ],
+      "extends": [
+        "config:base",
+        ":prNotPending",
+        ":rebaseStalePrs",
+        ":updateNotScheduled",
+        ":prHourlyLimitNone",
+        ":automergeMinor",
+        "group:allNonMajor",
+        "schedule:automergeEarlyMondays"
+      ],
+      "packageRules": [
+        {
+          "groupName": "internal",
+          "matchPackagePatterns": [
+            "^@chieforz/"
+          ]
+        },
+        {
+          "matchDepTypes": [
+            "dependencies"
+          ],
+          "rangeStrategy": "bump"
+        },
+        {
+          "groupName": "devDependencies (non-major)",
+          "matchDepTypes": [
+            "devDependencies"
+          ],
+          "matchUpdateTypes": [
+            "patch",
+            "minor"
+          ]
+        }
+      ],
+      "platformAutomerge": true,
+      "semanticCommits": "enabled"
+    }
+  }
+}

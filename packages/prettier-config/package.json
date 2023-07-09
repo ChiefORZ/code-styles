@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/ChiefORZ/code-styles"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": "ChiefORZ <seb.schaffernak@gmail.com>",
   "main": "lib/prettier-config.js",
   "directories": {
