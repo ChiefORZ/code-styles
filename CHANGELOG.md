@@ -1,5 +1,12 @@
 
 
+## [1.1.3](https://github.com/ChiefORZ/code-styles/compare/1.1.2...1.1.3) (2023-07-09)
+
+
+### Bug Fixes
+
+* republish tslint configs with conventional package name ([cab1c79](https://github.com/ChiefORZ/code-styles/commit/cab1c7943d13c07dbdfecd490e43ae47bf04916d))
+
 ## [1.1.2](https://github.com/ChiefORZ/code-styles/compare/1.1.1...1.1.2) (2023-07-03)
 
 ## [1.1.1](https://github.com/ChiefORZ/tslint-config/compare/1.1.0...1.1.1) (2023-06-20)
