@@ -20,8 +20,8 @@
     "lib"
   ],
   "dependencies": {
-    "prettier": "^2.7.1",
-    "prettier-plugin-packagejson": "^2.4.3",
+    "prettier": "^2.8.8",
+    "prettier-plugin-packagejson": "^2.4.4",
     "prettier-plugin-tailwindcss": "^0.3.0"
   },
   "publishConfig": {
