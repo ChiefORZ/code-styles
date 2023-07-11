@@ -2,6 +2,10 @@ name: Release package
 
 on:
   workflow_dispatch:
+    inputs:
+      pre-release-tag:
+        description: 'Pre-release tag'
+        required: false
 
 jobs:
   release:
@@ -50,7 +54,12 @@ jobs:
         run: pnpm install
 
       - name: Release
-        run: pnpm run release
+        run: |
+          if [ -n "${{ github.event.inputs.pre-release-tag }}" ]; then
+            pnpm run release -- --pre-release ${{ github.event.inputs.pre-release-tag }}
+          else
+            pnpm run release
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
