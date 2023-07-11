@@ -1,28 +1,12 @@
 module.exports = {
-  root: true,
-  parser: "@typescript-eslint/parser",
-  plugins: [
-    "@typescript-eslint",
-    "simple-import-sort",
-    "sort-keys-fix",
-    "import",
-    "json-files",
-  ],
   env: {
-    node: true,
     es6: true,
+    node: true,
   },
-  ignorePatterns: [".eslintrc.js"],
   extends: ["eslint:recommended", "plugin:eslint-comments/recommended"],
-  parserOptions: {
-    ecmaVersion: 2020,
-    sourceType: "module",
-    project: ["./tsconfig.json"],
-    // debugLevel: true,
-  },
+  ignorePatterns: [".eslintrc.js"],
   overrides: [
     {
-      files: ["*.ts"],
       extends: [
         "eslint:recommended",
         "plugin:@typescript-eslint/eslint-recommended",
@@ -30,6 +14,7 @@ module.exports = {
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
         "plugin:prettier/recommended",
       ],
+      files: ["*.ts"],
       rules: {
         "@typescript-eslint/ban-ts-comment": "off",
         "@typescript-eslint/ban-types": "off",
@@ -59,10 +44,6 @@ module.exports = {
         "import/first": "error",
         "import/newline-after-import": "error",
         "import/no-duplicates": "error",
-        "json-files/require-engines": "warn",
-        "json-files/require-license": "warn",
-        "json-files/require-unique-dependency-names": "error",
-        "json-files/sort-package-json": "warn",
         "no-empty": "off",
         "no-useless-escape": "off",
         "prettier/prettier": "warn",
@@ -71,5 +52,29 @@ module.exports = {
         "sort-keys-fix/sort-keys-fix": "warn",
       },
     },
+    {
+      extends: ["plugin:prettier/recommended"],
+      plugins: ["json-files"],
+      files: ["*.json"],
+      rules: {
+        "json-files/require-engines": "warn",
+        "json-files/require-license": "warn",
+        "json-files/require-unique-dependency-names": "error",
+        "json-files/sort-package-json": "warn",
+      },
+    },
   ],
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaVersion: 2020,
+    project: ["./tsconfig.json"], // debugLevel: true,
+    sourceType: "module",
+  },
+  plugins: [
+    "@typescript-eslint",
+    "simple-import-sort",
+    "sort-keys-fix",
+    "import",
+  ],
+  root: true,
 };
