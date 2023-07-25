@@ -31,10 +31,10 @@ jobs:
           node-version: 16
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v2.2.4
+        uses: pnpm/action-setup@v2
         id: pnpm-install
         with:
-          version: 7
+          version: ^8.6.0
           run_install: false
 
       - name: Get pnpm store directory
