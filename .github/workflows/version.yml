@@ -62,7 +62,7 @@ jobs:
 
       - name: Version
         run: |
-          pnpm release-it --release-version -VV
+          pnpm release-it --release-version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
