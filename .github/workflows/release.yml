@@ -8,9 +8,6 @@ on:
         type: boolean
         default: false
         required: false
-      pre-release-tag:
-        description: 'Pre-release tag'
-        required: false
 
 jobs:
   release:
@@ -68,9 +65,6 @@ jobs:
           args=()
           if [ "${{ github.event.inputs.dry-run }}" = true ]; then
             args+=(--dry-run)
-          fi
-          if [ -n "${{ github.event.inputs.pre-release-tag }}" ]; then
-            args+=(--pre-release ${{ github.event.inputs.pre-release-tag }})
           fi
           pnpm run release -- "${args[@]}"
         env:
