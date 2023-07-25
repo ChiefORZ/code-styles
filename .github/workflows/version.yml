@@ -60,7 +60,7 @@ jobs:
 
       - name: Version
         run: |
-          pnpm release-it --release-version
+          pnpm release-it --release-version -VV
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -68,5 +68,5 @@ jobs:
       - name: Cleanup folders
         run: |
           if [ "${{ github.event.inputs.cleanup }}" = "true" ]; then
-            rm -rf .*
+            rm -rf .git
           fi
