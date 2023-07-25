@@ -1,4 +1,9 @@
+# Changelog
 
+* chore(ci): rename parameter from pre-release to preRelease (c6ebf61)
+* chore: remove peerDependencyRules (0b9c9e8)
+* chore(release): add header in changelog (f822811)
+* chore(ci): remove pre-release option from github workflow (6405124)
 
 * chore(ci): remove verbose flag (f3f2391)
 * chore(ci): add necessary fetch-depth: 0 (439a09f)
