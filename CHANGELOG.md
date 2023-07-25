@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.1.6-beta.0](https://github.com/ChiefORZ/code-styles/compare/1.1.5...1.1.6-beta.0) (2023-07-25)
+
 * chore(ci): rename parameter from pre-release to preRelease (c6ebf61)
 * chore: remove peerDependencyRules (0b9c9e8)
 * chore(release): add header in changelog (f822811)
