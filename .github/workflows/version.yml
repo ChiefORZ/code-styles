@@ -52,7 +52,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Release
+      - name: Version
         run: |
           pnpm release-it --release-version
         env:
