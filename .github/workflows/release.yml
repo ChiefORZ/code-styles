@@ -3,6 +3,11 @@ name: Release package
 on:
   workflow_dispatch:
     inputs:
+      dry-run:
+        description: 'Dry-run'
+        type: boolean
+        default: false
+        required: false
       pre-release-tag:
         description: 'Pre-release tag'
         required: false
@@ -58,11 +63,14 @@ jobs:
 
       - name: Release
         run: |
-          if [ -n "${{ github.event.inputs.pre-release-tag }}" ]; then
-            pnpm run release -- --pre-release ${{ github.event.inputs.pre-release-tag }}
-          else
-            pnpm run release
+          args=()
+          if [ "${{ github.event.inputs.dry-run }}" = true ]; then
+            args+=(--dry-run)
           fi
+          if [ -n "${{ github.event.inputs.pre-release-tag }}" ]; then
+            args+=(--pre-release ${{ github.event.inputs.pre-release-tag }})
+          fi
+          pnpm run release -- "${args[@]}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
