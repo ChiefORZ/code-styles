@@ -72,7 +72,7 @@ jobs:
           if [ -n "${{ github.event.inputs.pre-release-tag }}" ]; then
             args+=(--preRelease=${{ github.event.inputs.pre-release-tag }})
           fi
-          pnpm run release -- "${args[@]}"
+          pnpm release-it "${args[@]}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

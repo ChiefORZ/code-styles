@@ -8,8 +8,7 @@
   "author": "ChiefORZ <seb.schaffernak@gmail.com>",
   "scripts": {
     "postinstall": "is-ci || husky install",
-    "precommit": "true",
-    "release": "release-it"
+    "precommit": "true"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
