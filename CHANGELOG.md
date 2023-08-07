@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.6](https://github.com/ChiefORZ/code-styles/compare/1.1.6-beta.0...1.1.6) (2023-08-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v9 ([#21](https://github.com/ChiefORZ/code-styles/issues/21)) ([3ebff8e](https://github.com/ChiefORZ/code-styles/commit/3ebff8ef8779cc9104c8b53bcd88b4f8d3a612ee))
+* **deps:** update dependency prettier to ^3.0.1 ([#20](https://github.com/ChiefORZ/code-styles/issues/20)) ([2535021](https://github.com/ChiefORZ/code-styles/commit/2535021c0618e51d3f6ebb08258119278a02c63e))
+* **deps:** update external-non-major ([#19](https://github.com/ChiefORZ/code-styles/issues/19)) ([7005ac8](https://github.com/ChiefORZ/code-styles/commit/7005ac8a0a759d16b4b976f3d97d70e23e612194))
+
 ## [1.1.6-beta.0](https://github.com/ChiefORZ/code-styles/compare/1.1.5...1.1.6-beta.0) (2023-07-25)
 
 ## [1.1.5](https://github.com/ChiefORZ/code-styles/compare/1.1.4...1.1.5) (2023-07-25)
