@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.7](https://github.com/ChiefORZ/code-styles/compare/1.1.6...1.1.7) (2023-09-09)
+
+
+### Bug Fixes
+
+* **deps:** update external-non-major ([#23](https://github.com/ChiefORZ/code-styles/issues/23)) ([b4f5952](https://github.com/ChiefORZ/code-styles/commit/b4f5952f963b26a00a45a03857fdca25d7a1b9b0))
+* **deps:** update external-non-major ([#24](https://github.com/ChiefORZ/code-styles/issues/24)) ([881a185](https://github.com/ChiefORZ/code-styles/commit/881a185a9a64f584254a8f3d91426823d4598046))
+* **deps:** update external-non-major ([#25](https://github.com/ChiefORZ/code-styles/issues/25)) ([92d9681](https://github.com/ChiefORZ/code-styles/commit/92d96810c13ffc2f03f0f4661799b4f1aa738aa5))
+* remove prettier-eslint ([9c8157f](https://github.com/ChiefORZ/code-styles/commit/9c8157fccd9fcb89c5d9b76449ceca073e2a9bda))
+
 ## [1.1.6](https://github.com/ChiefORZ/code-styles/compare/1.1.6-beta.0...1.1.6) (2023-08-07)
 
 
