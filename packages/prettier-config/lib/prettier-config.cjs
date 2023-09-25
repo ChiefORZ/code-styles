@@ -2,8 +2,8 @@
 module.exports = {
   arrowParens: 'always',
   plugins: [
-    require('prettier-plugin-tailwindcss'),
-    require('prettier-plugin-packagejson'),
+    'prettier-plugin-tailwindcss',
+    'prettier-plugin-packagejson',
   ],
   semi: true,
   singleQuote: true,
