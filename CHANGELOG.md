@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.1.9](https://github.com/ChiefORZ/code-styles/compare/1.1.8...1.1.9) (2023-09-25)
+
 ## [1.1.8](https://github.com/ChiefORZ/code-styles/compare/1.1.7...1.1.8) (2023-09-25)
 
 
