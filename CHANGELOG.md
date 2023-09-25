@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.8](https://github.com/ChiefORZ/code-styles/compare/1.1.7...1.1.8) (2023-09-25)
+
+
+### Bug Fixes
+
+* **deps:** update external-non-major to ^6.7.0 ([#27](https://github.com/ChiefORZ/code-styles/issues/27)) ([e8f1ec6](https://github.com/ChiefORZ/code-styles/commit/e8f1ec6cbc7ff037a01aceda6c82864028b65e13))
+* use prettier.config.cjs instead ([65c81db](https://github.com/ChiefORZ/code-styles/commit/65c81dbc2e0e853feb0a5427de2739e82e65354e))
+
 ## [1.1.7](https://github.com/ChiefORZ/code-styles/compare/1.1.6...1.1.7) (2023-09-09)
 
 
