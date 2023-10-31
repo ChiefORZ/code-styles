@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.10](https://github.com/ChiefORZ/code-styles/compare/1.1.9...1.1.10) (2023-10-31)
+
+
+### Bug Fixes
+
+* **deps:** update external-non-major ([#31](https://github.com/ChiefORZ/code-styles/issues/31)) ([d26d804](https://github.com/ChiefORZ/code-styles/commit/d26d8044516dbf2bd4422522c854de59c3a8f093))
+
 ## [1.1.9](https://github.com/ChiefORZ/code-styles/compare/1.1.8...1.1.9) (2023-09-25)
 
 ## [1.1.8](https://github.com/ChiefORZ/code-styles/compare/1.1.7...1.1.8) (2023-09-25)
