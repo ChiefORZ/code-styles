@@ -14,9 +14,9 @@
     "@commitlint/cli": "^18.4.2",
     "@commitlint/config-conventional": "^18.4.2",
     "@release-it-plugins/workspaces": "^4.0.0",
-    "@release-it/conventional-changelog": "^7.0.2",
+    "@release-it/conventional-changelog": "^8.0.1",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
-    "release-it": "^16.2.1"
+    "release-it": "^17.0.0"
   }
 }
