@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.2.3](https://github.com/ChiefORZ/code-styles/compare/1.2.2...1.2.3) (2023-12-04)
+
 ## [1.2.2](https://github.com/ChiefORZ/code-styles/compare/1.2.1...1.2.2) (2023-12-04)
 
 ## [1.2.1](https://github.com/ChiefORZ/code-styles/compare/1.2.0...1.2.1) (2023-12-04)
