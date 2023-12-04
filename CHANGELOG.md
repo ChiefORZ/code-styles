@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/ChiefORZ/code-styles/compare/1.2.3...1.2.4) (2023-12-04)
+
+
+### Bug Fixes
+
+* disable @typescript-eslint/indent rule ([558f617](https://github.com/ChiefORZ/code-styles/commit/558f6177eff47ff5929b22d05814dd5ba0d90721))
+
 ## [1.2.3](https://github.com/ChiefORZ/code-styles/compare/1.2.2...1.2.3) (2023-12-04)
 
 ## [1.2.2](https://github.com/ChiefORZ/code-styles/compare/1.2.1...1.2.2) (2023-12-04)
