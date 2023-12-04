@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.0](https://github.com/ChiefORZ/code-styles/compare/1.1.10...1.2.0) (2023-12-04)
+
+
+### Features
+
+* add prettier-plugins to peerDependencies ([0c25f5e](https://github.com/ChiefORZ/code-styles/commit/0c25f5e38cecfa54d24e3880b2deab2618c4a824))
+* add shared biome config ([fbedff9](https://github.com/ChiefORZ/code-styles/commit/fbedff9c477ad8a204db888ac4eb14f61fc5e6c6))
+
+
+### Bug Fixes
+
+* **deps:** update external-non-major ([#36](https://github.com/ChiefORZ/code-styles/issues/36)) ([7441988](https://github.com/ChiefORZ/code-styles/commit/7441988ff8ff51f31c80da445c477a864a60b821))
+* **deps:** update external-non-major ([#41](https://github.com/ChiefORZ/code-styles/issues/41)) ([53ca870](https://github.com/ChiefORZ/code-styles/commit/53ca870af469291c01b2f9b242afa12a7d2c5031))
+
 ## [1.1.10](https://github.com/ChiefORZ/code-styles/compare/1.1.9...1.1.10) (2023-10-31)
 
 
