@@ -1,5 +1,14 @@
 {
   "extends": [
     "github>chieforz/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "enabled": false,
+      "matchPackageNames": [
+        "@release-it/conventional-changelog",
+        "release-it"
+      ]
+    }
   ]
 }
