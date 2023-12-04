@@ -25,7 +25,7 @@
   "javascript": {
     "formatter": {
       "enabled": true,
-      "quoteStyle": "double",
+      "quoteStyle": "single",
       "arrowParentheses": "always",
       "trailingComma": "all",
       "lineEnding": "lf"
