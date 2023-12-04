@@ -90,7 +90,6 @@ module.exports = {
     project: "./tsconfig.json",
   },
   plugins: [
-    "simple-import-sort",
     "sort-keys-fix",
     "validate-jsx-nesting",
     "@typescript-eslint",

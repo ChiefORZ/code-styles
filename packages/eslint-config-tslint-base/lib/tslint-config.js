@@ -45,8 +45,6 @@ module.exports = {
         "import/no-duplicates": "error",
         "no-empty": "off",
         "no-useless-escape": "off",
-        "simple-import-sort/exports": "error",
-        "simple-import-sort/imports": "error",
         "sort-keys-fix/sort-keys-fix": "warn",
       },
     },
@@ -69,7 +67,6 @@ module.exports = {
   },
   plugins: [
     "@typescript-eslint",
-    "simple-import-sort",
     "sort-keys-fix",
     "import",
   ],
