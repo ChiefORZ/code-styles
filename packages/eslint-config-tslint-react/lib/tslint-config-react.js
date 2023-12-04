@@ -2,9 +2,7 @@ module.exports = {
   extends: [
     "airbnb-typescript",
     "react-app",
-    "prettier",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
     "plugin:react-hooks/recommended",
   ],
   overrides: [
@@ -92,7 +90,6 @@ module.exports = {
     project: "./tsconfig.json",
   },
   plugins: [
-    "prettier",
     "simple-import-sort",
     "sort-keys-fix",
     "validate-jsx-nesting",

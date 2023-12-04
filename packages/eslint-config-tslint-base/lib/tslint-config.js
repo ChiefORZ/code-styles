@@ -12,7 +12,6 @@ module.exports = {
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
-        "plugin:prettier/recommended",
       ],
       files: ["*.ts"],
       rules: {
@@ -46,14 +45,12 @@ module.exports = {
         "import/no-duplicates": "error",
         "no-empty": "off",
         "no-useless-escape": "off",
-        "prettier/prettier": "warn",
         "simple-import-sort/exports": "error",
         "simple-import-sort/imports": "error",
         "sort-keys-fix/sort-keys-fix": "warn",
       },
     },
     {
-      extends: ["plugin:prettier/recommended"],
       plugins: ["json-files"],
       files: ["*.json"],
       rules: {
