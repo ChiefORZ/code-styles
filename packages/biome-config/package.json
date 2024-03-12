@@ -21,10 +21,10 @@
     "lib"
   ],
   "dependencies": {
-    "@biomejs/biome": "^1.5.3"
+    "@biomejs/biome": "^1.6.1"
   },
   "peerDependencies": {
-    "@biomejs/biome": "^1.5.3"
+    "@biomejs/biome": "^1.6.1"
   },
   "publishConfig": {
     "access": "public",
