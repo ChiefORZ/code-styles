@@ -29,7 +29,7 @@
     "eslint-plugin-json-files": "^4.1.0",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   },
   "publishConfig": {
     "access": "public",
