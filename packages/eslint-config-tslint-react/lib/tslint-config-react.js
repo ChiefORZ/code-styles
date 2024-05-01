@@ -89,7 +89,7 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
   },
-  plugins: ['sort-keys-fix', 'validate-jsx-nesting', '@typescript-eslint'],
+  plugins: ['import', 'react', 'sort-keys-fix', 'validate-jsx-nesting', '@typescript-eslint'],
   settings: {
     'import/resolver': {
       typescript: {
