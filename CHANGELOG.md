@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.6](https://github.com/ChiefORZ/code-styles/compare/1.2.5...1.2.6) (2024-05-01)
+
+
+### Bug Fixes
+
+* add missing plugins ([326074f](https://github.com/ChiefORZ/code-styles/commit/326074f5ba3df47ee348dc58bf46fdf3d4548203))
+
 ## [1.2.5](https://github.com/ChiefORZ/code-styles/compare/1.2.4...1.2.5) (2024-05-01)
 
 
