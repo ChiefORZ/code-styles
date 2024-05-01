@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.5](https://github.com/ChiefORZ/code-styles/compare/1.2.4...1.2.5) (2024-05-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v9 ([#62](https://github.com/ChiefORZ/code-styles/issues/62)) ([c58948c](https://github.com/ChiefORZ/code-styles/commit/c58948c3847d8a96b876372bad1b97bfdf31138e))
+* **deps:** update external-major ([#51](https://github.com/ChiefORZ/code-styles/issues/51)) ([3584901](https://github.com/ChiefORZ/code-styles/commit/3584901db68aad7b698af478393eba814a62d6bc))
+* **deps:** update external-non-major ([#42](https://github.com/ChiefORZ/code-styles/issues/42)) ([dbd0bae](https://github.com/ChiefORZ/code-styles/commit/dbd0bae1c6ffbb6d70f4ac946f480b2cec4208e7))
+* **deps:** update external-non-major ([#43](https://github.com/ChiefORZ/code-styles/issues/43)) ([451ce89](https://github.com/ChiefORZ/code-styles/commit/451ce89eeac27841940e05db9912e08e9958651a))
+* **deps:** update external-non-major ([#44](https://github.com/ChiefORZ/code-styles/issues/44)) ([80c196f](https://github.com/ChiefORZ/code-styles/commit/80c196fb16a12416f02bf87b97ba867ead6a3957))
+* **deps:** update external-non-major ([#50](https://github.com/ChiefORZ/code-styles/issues/50)) ([1c8f11c](https://github.com/ChiefORZ/code-styles/commit/1c8f11cd33b8e526996c6b7b508d9bc30b175248))
+* **deps:** update external-non-major ([#53](https://github.com/ChiefORZ/code-styles/issues/53)) ([ffa1b7c](https://github.com/ChiefORZ/code-styles/commit/ffa1b7caeb4a9e796234429f637188fb24c2d261))
+* **deps:** update external-non-major ([#54](https://github.com/ChiefORZ/code-styles/issues/54)) ([92e2bfb](https://github.com/ChiefORZ/code-styles/commit/92e2bfbc1b3135de9b7e1ac6164354ac66c7beec))
+* downgrade eslint & remove eslint-config-react-app ([3ca166e](https://github.com/ChiefORZ/code-styles/commit/3ca166e7c103f01cbc4302c9cf59bcd8b9b3a795))
+
 ## [1.2.4](https://github.com/ChiefORZ/code-styles/compare/1.2.3...1.2.4) (2023-12-04)
 
 
