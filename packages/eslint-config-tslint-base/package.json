@@ -1,25 +1,26 @@
 {
   "name": "@chieforz/eslint-config-tslint-base",
   "version": "1.2.6",
-  "keywords": [
-    "tslint",
-    "tslint-config",
-    "tslint config"
-  ],
+  "keywords": ["tslint", "tslint-config", "tslint config"],
   "repository": {
     "type": "git",
     "url": "https://github.com/ChiefORZ/tslint-config"
   },
   "license": "MIT",
   "author": "ChiefORZ <seb.schaffernak@gmail.com>",
-  "main": "lib/tslint-config.js",
+  "type": "module",
+  "exports": {
+    ".": "./lib/tslint-config.mjs"
+  },
+  "main": "lib/tslint-config.mjs",
   "directories": {
     "lib": "lib"
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "dependencies": {
+    "@eslint/compat": "^1.0.3",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.4.0",
     "@typescript-eslint/eslint-plugin": "^7.7.1",
     "@typescript-eslint/eslint-plugin-tslint": "^7.0.2",
     "@typescript-eslint/parser": "^7.7.1",
@@ -29,6 +30,7 @@
     "eslint-plugin-json-files": "^4.2.0",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "globals": "^15.4.0",
     "typescript": "^5.4.5"
   },
   "publishConfig": {

@@ -1,25 +1,26 @@
 {
   "name": "@chieforz/eslint-config-tslint-react",
   "version": "1.2.6",
-  "keywords": [
-    "tslint",
-    "tslint config",
-    "tslint-config-react"
-  ],
+  "keywords": ["tslint", "tslint config", "tslint-config-react"],
   "repository": {
     "type": "git",
     "url": "https://github.com/ChiefORZ/tslint-config-react"
   },
   "license": "MIT",
   "author": "ChiefORZ <seb.schaffernak@gmail.com>",
-  "main": "lib/tslint-config-react.js",
+  "type": "module",
+  "exports": {
+    ".": "./lib/tslint-config-react.mjs"
+  },
+  "main": "lib/tslint-config-react.mjs",
   "directories": {
     "lib": "lib"
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "dependencies": {
+    "@eslint/compat": "^1.0.3",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.4.0",
     "@typescript-eslint/eslint-plugin": "^7.7.1",
     "@typescript-eslint/parser": "^7.7.1",
     "eslint-config-airbnb": "^19.0.4",
@@ -31,7 +32,8 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-validate-jsx-nesting": "^0.1.1"
+    "eslint-plugin-validate-jsx-nesting": "^0.1.1",
+    "globals": "^15.4.0"
   },
   "publishConfig": {
     "access": "public",
