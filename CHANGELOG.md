@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/ChiefORZ/code-styles/compare/1.2.6...1.3.0) (2024-06-14)
+
+
+### Features
+
+* migrate to eslint flat config ([80e1b38](https://github.com/ChiefORZ/code-styles/commit/80e1b38524cd0791f5cddf84ea60db266ec48cb0))
+
 ## [1.2.6](https://github.com/ChiefORZ/code-styles/compare/1.2.5...1.2.6) (2024-05-01)
 
 
