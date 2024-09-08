@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/ChiefORZ/code-styles/compare/1.3.0...1.4.0) (2024-09-08)
+
+
+### Features
+
+* add .json to extraFileExtensions ([6e1e5b5](https://github.com/ChiefORZ/code-styles/commit/6e1e5b5484a72f027d5ab474e1768768be292cb3))
+
 ## [1.3.0](https://github.com/ChiefORZ/code-styles/compare/1.2.6...1.3.0) (2024-06-14)
 
 
