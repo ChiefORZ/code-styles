@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/ChiefORZ/code-styles/compare/1.4.0...1.4.1) (2024-09-08)
+
+
+### Bug Fixes
+
+* **deps:** update external-major to v8 ([9dc191d](https://github.com/ChiefORZ/code-styles/commit/9dc191dee7009796bffe2bf74eb3f7a027edc3e6))
+
 ## [1.4.0](https://github.com/ChiefORZ/code-styles/compare/1.3.0...1.4.0) (2024-09-08)
 
 
