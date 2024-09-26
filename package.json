@@ -10,6 +10,10 @@
     "postinstall": "is-ci || husky install",
     "precommit": "true"
   },
+  "resolutions": {
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
