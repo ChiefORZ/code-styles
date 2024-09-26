@@ -1,7 +1,11 @@
 {
   "name": "@chieforz/eslint-config-tslint-react",
-  "version": "1.4.1",
-  "keywords": ["tslint", "tslint config", "tslint-config-react"],
+  "version": "1.4.2",
+  "keywords": [
+    "tslint",
+    "tslint config",
+    "tslint-config-react"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ChiefORZ/tslint-config-react"
@@ -16,7 +20,9 @@
   "directories": {
     "lib": "lib"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "@eslint/compat": "^1.1.1",
     "@eslint/eslintrc": "^3.1.0",

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/ChiefORZ/code-styles/compare/1.4.1...1.4.2) (2024-09-26)
+
+
+### Bug Fixes
+
+* pin version of typescript-eslint to make it compatible with eslint-config-airbnb-typescript ([fbb1ff6](https://github.com/ChiefORZ/code-styles/commit/fbb1ff609d084504f69ec7a516069ed74494236b))
+
 ## [1.4.1](https://github.com/ChiefORZ/code-styles/compare/1.4.0...1.4.1) (2024-09-08)
 
 
