@@ -21,13 +21,13 @@
   ],
   "dependencies": {
     "prettier": "^3.3.3",
-    "prettier-plugin-packagejson": "^2.5.2",
-    "prettier-plugin-tailwindcss": "^0.6.6"
+    "prettier-plugin-packagejson": "^2.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.8"
   },
   "peerDependencies": {
     "prettier": "^3.3.3",
-    "prettier-plugin-packagejson": "^2.5.2",
-    "prettier-plugin-tailwindcss": "^0.6.6"
+    "prettier-plugin-packagejson": "^2.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.8"
   },
   "publishConfig": {
     "access": "public",
