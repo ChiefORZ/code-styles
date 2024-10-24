@@ -23,7 +23,7 @@ const compat = new FlatCompat({
 export default [
   ...fixupConfigRules(
     compat.extends(
-      'airbnb-typescript',
+      '@kesills/airbnb-typescript',
       'plugin:@typescript-eslint/recommended',
       'plugin:react-hooks/recommended',
     ),
@@ -41,7 +41,10 @@ export default [
       ecmaVersion: 5,
       sourceType: 'script',
       parserOptions: {
-        project: './tsconfig.json',
+        extraFileExtensions: ['.json'],
+        project: ['./tsconfig.json'],
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
       },
     },
     settings: {

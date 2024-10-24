@@ -41,8 +41,10 @@ export default [
       sourceType: 'module',
 
       parserOptions: {
-        project: ['./tsconfig.json'],
         extraFileExtensions: ['.json'],
+        project: ['./tsconfig.json'],
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
       },
     },
   },

@@ -1,11 +1,7 @@
 {
   "name": "@chieforz/eslint-config-tslint-react",
   "version": "1.4.3",
-  "keywords": [
-    "tslint",
-    "tslint config",
-    "tslint-config-react"
-  ],
+  "keywords": ["tslint", "tslint config", "tslint-config-react"],
   "repository": {
     "type": "git",
     "url": "https://github.com/ChiefORZ/tslint-config-react"
@@ -20,17 +16,15 @@
   "directories": {
     "lib": "lib"
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "dependencies": {
     "@eslint/compat": "^1.2.1",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.13.0",
+    "@kesills/eslint-config-airbnb-typescript": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^8.11.0",
     "@typescript-eslint/parser": "^8.11.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-json-files": "^4.4.1",
