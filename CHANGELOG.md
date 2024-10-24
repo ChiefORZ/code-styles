@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/ChiefORZ/code-styles/compare/1.4.2...1.4.3) (2024-10-24)
+
+
+### Bug Fixes
+
+* **deps:** update external-major ([4bfeb7e](https://github.com/ChiefORZ/code-styles/commit/4bfeb7e42f4c2eedf7d38f99a3ff918d32164fbd))
+
 ## [1.4.2](https://github.com/ChiefORZ/code-styles/compare/1.4.1...1.4.2) (2024-09-26)
 
 
