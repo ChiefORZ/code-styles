@@ -26,17 +26,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v3
-        id: pnpm-install
-        with:
-          run_install: false
-
-      - name: Install NodeJS ${{matrix.node-version}}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{matrix.node-version}}
-          cache: 'pnpm'
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
 
       - name: git config
         run: |
@@ -52,7 +43,7 @@ jobs:
         run: git status --porcelain
       
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: bun install --frozen-lockfile
 
       - name: Show changes after install
         run: git status --porcelain
@@ -66,7 +57,7 @@ jobs:
           if [ -n "${{ github.event.inputs.pre-release-tag }}" ]; then
             args+=(--preRelease=${{ github.event.inputs.pre-release-tag }})
           fi
-          pnpm release-it "${args[@]}"
+          bun release-it "${args[@]}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -23,6 +23,7 @@ const compat = new FlatCompat({
 export default [
   ...fixupConfigRules(
     compat.extends(
+      'airbnb',
       '@kesills/airbnb-typescript',
       'plugin:@typescript-eslint/recommended',
       'plugin:react-hooks/recommended',
@@ -120,6 +121,8 @@ export default [
       'react/jsx-wrap-multilines': 'off',
       'react/no-unescaped-entities': 'off',
       'react/prop-types': 'off',
+      'react/react-in-jsx-scope': 'off',
+      'react/require-default-props': 'off',
       'sort-keys-fix/sort-keys-fix': 'warn',
       'validate-jsx-nesting/no-invalid-jsx-nesting': 'error',
     },
