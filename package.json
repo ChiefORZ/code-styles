@@ -11,8 +11,8 @@
     "precommit": "true"
   },
   "resolutions": {
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
-    "@typescript-eslint/parser": "^7.18.0"
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
