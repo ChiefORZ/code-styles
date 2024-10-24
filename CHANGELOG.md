@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/ChiefORZ/code-styles/compare/1.4.3...1.4.4) (2024-10-24)
+
+
+### Bug Fixes
+
+* use kesills/airbnb-typescript pkg ([18357a9](https://github.com/ChiefORZ/code-styles/commit/18357a941b1f46262ad0ead96de35d9138db2251))
+
 ## [1.4.3](https://github.com/ChiefORZ/code-styles/compare/1.4.2...1.4.3) (2024-10-24)
 
 

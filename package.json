@@ -1,12 +1,14 @@
 {
   "name": "@chieforz/code-styles",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/ChiefORZ/code-styles"
   },
   "author": "ChiefORZ <seb.schaffernak@gmail.com>",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "precommit": "true",
     "prepare": "is-ci || husky"
@@ -24,5 +26,7 @@
     "is-ci": "^3.0.1",
     "release-it": "^16.3.0"
   },
-  "trustedDependencies": ["@biomejs/biome"]
+  "trustedDependencies": [
+    "@biomejs/biome"
+  ]
 }
